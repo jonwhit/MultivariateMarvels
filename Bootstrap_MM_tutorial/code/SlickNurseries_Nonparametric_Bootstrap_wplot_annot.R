@@ -7,10 +7,10 @@
 library(scales) # For plotting
 library(tidyverse)
 # Setwd
-setwd("~/PROJECTS/Workshops/MultivariateMarvels/SlickNurseries-master/")
+setwd("~/PROJECTS/Workshops/MultivariateMarvels-main/Bootstrap_MM_tutorial/output/")
 
 #read data
-dat.raw <- read.csv("SlickNurseries_FunctionalGroups_Densities.csv")
+dat.raw <- read.csv("../data/SlickNurseries_FunctionalGroups_Densities.csv")
 
 dat.raw <- dat.raw %>% 
   select(-transect) %>%

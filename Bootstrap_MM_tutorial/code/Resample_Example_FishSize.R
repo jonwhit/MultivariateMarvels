@@ -3,7 +3,7 @@
 #RESAMPLING Examples
 
 #02 - Explore Fish Larvae Neuston
-setwd("~/PROJECTS/Workshops/MultivariateMarvels/SlickNurseries-master/")
+setwd("~/PROJECTS/Workshops/MultivariateMarvels-main/Bootstrap_MM_tutorial/data/")
 library(tidyverse)
 
 #sample(base) is a simple bootstrap - resampling method
